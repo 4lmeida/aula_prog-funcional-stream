@@ -11,7 +11,6 @@ public class Program {
 		List<Integer> list = Arrays.asList(3, 5, 8, 9, 10);
 		Stream<Integer> st1 = list.stream();
 		System.out.println(st1.toList());
-		
 		Stream<String> st2 = Stream.of("Maria", "Bob", "Joao");
 		System.out.println(st2.toList());
 		
